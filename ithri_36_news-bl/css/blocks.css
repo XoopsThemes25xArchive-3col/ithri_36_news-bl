@@ -1,0 +1,113 @@
+/* --------- Left columns --------- */
+#xo-canvas-leftcolumn { 
+	width : 170px;
+	padding-top:4px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    
+}
+
+#xo-canvas-leftcolumn h3.xo-blocktitle { 
+    padding:4px;
+    border-left: 3px solid #11355D;
+	border-right: 3px solid #11355D;
+	color: #FFFFFF; 
+	background:  url("../img/top-nav.gif") repeat-x left;
+    font-size: 1.3em;
+    text-align: center;
+	font-weight: bold;  
+	height:20px
+	
+	
+	 
+    
+}
+
+#xo-canvas-leftcolumn .xo-blockcontent { 
+	padding: 2px;
+	border-bottom: 1px solid #B2DFEE;
+    border-left: 1px solid #B2DFEE;
+    border-right: 1px solid #B2DFEE;
+	background:#fff;
+}
+
+
+
+/* --------- Right columns --------- */
+#xo-canvas-rightcolumn {
+	width : 170px;
+	padding-top:4px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	
+	
+}
+#xo-canvas-rightcolumn h3.xo-blocktitle {
+    border-left: 3px solid #11355D;
+	border-right: 3px solid #11355D;
+    background:url(../img/right.gif) 0 0 repeat-x;
+    padding:4px;
+	color: #666; 
+	font-size: 1.3em;
+	font-weight: bold;
+	text-align: center;
+	margin-left:  0px ;
+	height:20px
+	
+	
+	
+}
+#xo-canvas-rightcolumn .xo-blockcontent { 
+	color:#00008B;
+	padding: 0px;
+	border-bottom: 1px solid #B2DFEE;
+    border-left: 1px solid #B2DFEE;
+    border-right: 1px solid #B2DFEE;
+	background:#fff;
+}
+
+/* --------- Center blocks --------- */
+#xo-page .xo-block {
+  margin: 8px;
+  border:1px solid #B4D1F1;
+
+ 
+ 
+}
+#xo-topcenterblocks, #xo-bottomcenterblocks {}
+#xo-topcenterblocks h3.xo-blocktitle, #xo-bottomcenterblocks h3.xo-blocktitle {
+  padding:2px;
+  padding-left: 4px;
+  color :#FFFFFF;
+  font-weight: bold;
+  background: 		#666666;
+   border-left: 3px solid #08192B;
+   font-size: 1.3em;
+}
+#xo-topcenterblocks .xo-blockcontent, #xo-bottomcenterblocks .xo-blockcontent {
+  background:#fff;
+  margin-bottom: 0px;
+  line-height: 1.3em;
+  text-align: justify;
+  
+}
+#xo-topleftblocks, #xo-bottomleftblocks, #xo-toprightblocks, #xo-bottomrightblocks {width : 49.5%;  border-bottom: ;}
+#xo-topleftblocks h3.xo-blocktitle, #xo-bottomleftblocks h3.xo-blocktitle,
+#xo-toprightblocks h3.xo-blocktitle, #xo-bottomrightblocks h3.xo-blocktitle {
+   padding:2px;
+  padding-left: 4px;
+  color: #fff;
+  font-weight: bold;
+  background: 		#666666	;
+   border-left: 3px solid #08192B;
+   font-size: 1.3em;
+   
+  
+}
+#xo-topleftblocks .xo-blockcontent, #xo-toprightblocks .xo-blockcontent,
+#xo-bottomleftblocks .xo-blockcontent, #xo-bottomrightblocks .xo-blockcontent {
+  margin-bottom: 2px;
+  line-height: 1.3em;
+  text-align: justify;
+  background:#fff;  
+}
+
+
